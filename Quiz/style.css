@@ -170,6 +170,7 @@ body {
 }
 
 .quiz_box header .time_line {
+    max-width: 100%;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -183,11 +184,13 @@ section {
 }
 
 section .que_text {
+    max-width: 100%;
     font-size: 25px;
     font-weight: 600;
 }
 
 section .option_list {
+    max-width: 100%;
     padding: 20px 0px;
     display: block;
 }
