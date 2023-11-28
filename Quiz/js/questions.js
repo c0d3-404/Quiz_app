@@ -12,7 +12,9 @@ let questions = [
         numb: 2,
         question:
             "What will be the output for the following code snippit?\n" +
-            `<i><<pre><code class="python">print(2**3 + (5 + 6)**(1 + 1))</code></pre><\i>`,
+            `<i><<pre><code class="python">
+            print(2**3 + (5 + 6)**(1 + 1))
+            </code></pre><\i>`,
 
         answer: "129",
         options: ["129", "8", "121", "None of the above"],
@@ -26,7 +28,8 @@ let questions = [
             var = 10
             print(type(var))
             var="Hello"
-            print(type(var))`,
+            print(type(var))
+            </code></pre><\i>`,
         answer: "int and str",
         options: ["str and int", "int and int", "str and str", "int and str"],
     },
@@ -46,7 +49,8 @@ let questions = [
             a = [1, 2, 3]
             a = tuple(a)
             a[0] = 2
-            print(a)`,
+            print(a)
+            </code></pre><\i>`,
         answer: "Error",
         options: ["[2,2,3]", "(2,2,3)", "(1,2,3)", "Error"],
     },
@@ -57,7 +61,8 @@ let questions = [
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             print(type(5 / 2))
-            print(type(5 // 2))`,
+            print(type(5 // 2))
+            </code></pre><\i>`,
         answer: "float and int",
         options: [
             "float and int",
@@ -76,7 +81,8 @@ let questions = [
             sum = 0
             for ele in a:
                 sum += ele 
-            print(sum)`,
+            print(sum)
+            </code></pre><\i>`,
         answer: "15",
         options: ["`15`", "0", "20", "None of the above"],
     },
@@ -90,7 +96,8 @@ let questions = [
             b = 1 
             print(a, b)
             a, b = b, a 
-            print(a, b)`,
+            print(a, b)
+            </code></pre><\i>`,
         answer: "3 1   1 3",
         options: ["3 1   1 3", "1 3   3 1", "3 1   1 3", "1 3   3 1"],
     },
@@ -119,9 +126,10 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
-example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
-del example[2]
-print(example)`,
+            example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
+            del example[2]
+            print(example)
+            </code></pre><\i>`,
         answer: "['Sunday','Monday', 'Wednesday']",
         options: [
             "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
@@ -151,7 +159,8 @@ print(example)`,
             `<i><<pre><code class="python">
             numbers = (4, 7, 19, 2, 89, 45, 72, 22)
             sorted_numbers = sorted(numbers)
-            print(sorted_numbers)`,
+            print(sorted_numbers)
+            </code></pre><\i>`,
         answer: "List",
         options: ["List", "Tuple", "String", "Int"],
     },
@@ -173,7 +182,8 @@ print(example)`,
             thrive(35)
             thrive(56)
             thrive(15)
-            thrive(39)`,
+            thrive(39)
+            </code></pre><\i>`,
         answer: "five neither thrive three",
         options: [
             "five neither thrive three",
@@ -192,7 +202,8 @@ print(example)`,
             sorted_numbers = sorted(numbers)
             even = lambda a: a % 2 == 0
             even_numbers = filter(even, sorted_numbers)
-            print(type(even_numbers))`,
+            print(type(even_numbers))
+            </code></pre><\i>`,
         answer: "filter",
         options: ["filter", "int", "list", "tuple"],
     },
@@ -204,7 +215,8 @@ print(example)`,
             `<i><<pre><code class="python">
             def check(a):
                 print("Even" if a % 2 == 0 else "Odd")
-            check(12)`,
+            check(12)
+            </code></pre><\i>`,
         answer: "Even",
         options: ["Even", "Odd", "Error", "None of the above"],
     },
@@ -217,7 +229,8 @@ print(example)`,
             numbers = (4, 7, 19, 2, 89, 45, 72, 22)
             sorted_numbers = sorted(numbers)
             odd_numbers = [x for x in sorted_numbers if x % 2 != 0]
-            print(odd_numbers)`,
+            print(odd_numbers)
+            </code></pre><\i>`,
         answer: "[7,19,45,89]",
         options: [
             "[7,19,45,89]",
@@ -233,7 +246,8 @@ print(example)`,
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
-            print(example[-3:-1])`,
+            print(example[-3:-1])
+            </code></pre><\i>`,
         answer: "['Monday','Tuesday']",
         options: [
             "['Monday','Tuesday']",
@@ -251,7 +265,8 @@ print(example)`,
             def is_even(number):
                 message =  f"{number} is an even number" if number % 2 == 0 else  f"{number} is an odd number"
                 return message
-            print(is_even(54))`,
+            print(is_even(54))
+            </code></pre><\i>`,
         answer: "54 is an even number",
         options: [
             "54 is an even number",
@@ -269,7 +284,8 @@ print(example)`,
             dict1 = {'first' : 'sunday', 'second' : 'monday'}
             dict2 = {1: 3, 2: 4}
             dict1.update(dict2)
-            print(dict1)`,
+            print(dict1)
+            </code></pre><\i>`,
         answer: "{'first': 'sunday', 'second': 'monday', 1: 3 :2: 4}",
         options: [
             "{'first': 'sunday', 'second': 'monday', 1: 3 :2: 4}",
@@ -285,7 +301,8 @@ print(example)`,
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             s = {1, 2, 3, 3, 2, 4, 5, 5}
-            print(s)`,
+            print(s)
+            </code></pre><\i>`,
         answer: "{1, 2, 3, 4, 5}",
         options: [
             "{1, 2, 3, 3, 2, 4, 5, 5}",
@@ -302,7 +319,8 @@ print(example)`,
             `<i><<pre><code class="python">
             a = {'Hello':'World', 'First': 1}
             b = {val: k for k , val in a.items()}
-            print(b)`,
+            print(b)
+            </code></pre><\i>`,
         answer: "{1, 2, 3, 4, 5,}",
         options: [
             "{'Hello':'World', 'First': 1}",
@@ -340,7 +358,8 @@ print(example)`,
                     converted_word += word2[i]
                 else:
                     converted_word += word1[i]
-            print(converted_word)`,
+            print(converted_word)
+            </code></pre><\i>`,
         answer: "pYtHoN PrOgRaMmInG",
         options: [
             "pYtHoN PrOgRaMmInG",
@@ -359,7 +378,8 @@ print(example)`,
             nums = a.split(',')
             x, y = nums
             int_prod = int(x) * int(y)
-            print(int_prod)`,
+            print(int_prod)
+            </code></pre><\i>`,
         answer: "20",
         options: ["20", "45", "54", "4,5"],
     },
@@ -374,7 +394,8 @@ print(example)`,
             for i in range(5):
             a.append(square(i))
             
-            print(a)`,
+            print(a)
+            </code></pre><\i>`,
         answer: "[0,1,4,9,16]",
         options: [
             "[0,1,4,9,16]",
@@ -392,7 +413,8 @@ print(example)`,
             def tester(*argv):
                 for arg in argv:
                     print(arg, end = ' ')
-            tester('Sunday', 'Monday', 'Tuesday', 'Wednesday')`,
+            tester('Sunday', 'Monday', 'Tuesday', 'Wednesday')
+            </code></pre><\i>`,
         answer: "Sunday Monday Tuesday Wednesday",
         options: [
             "Sunday",
@@ -418,7 +440,8 @@ print(example)`,
             def tester(**kwargv):
                 for key, value in kwargs.items():
                     print(key, value, end = " ")
-            tester(Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4)`,
+            tester(Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4)
+            </code></pre><\i>`,
         answer: "Sunday 1 Monday 2 Tuesday 3 Wednesday 4",
         options: [
             "Sunday 1 Monday 2 Tuesday 3 Wednesday 4",
