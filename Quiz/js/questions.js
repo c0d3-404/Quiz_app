@@ -41,7 +41,7 @@ let questions = [
         numb: 5,
         question:
             "What will be the output of the following code snippet?" +
-            `<i><<pre><code class=a = [1, 2, 3]
+            `<i><<pre><code class="python">a = [1, 2, 3]
         a = tuple(a)
         a[0] = 2
         print(a)`,
