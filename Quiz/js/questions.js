@@ -263,8 +263,8 @@ let questions = [
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             def is_even(number):
-                message =  f"{number} is an even number" \
-                    if number % 2 == 0 \
+                message =  f"{number} is an even number" \\
+                    if number % 2 == 0 \\
                         else  f"{number} is an odd number"
                 return message
             print(is_even(54))
@@ -467,5 +467,206 @@ let questions = [
             "Which of the following blocks will always be executed whether an exception is encountered or not in a program?",
         answer: "finally",
         options: ["try", "except", "finally", "none of the above"],
+    },
+    {
+        //q32
+        numb: 32,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            from math import *
+            a = 2.19
+            b = 3.999999
+            c = -3.30
+            print(int(a), floor(b), ceil(c), fabs(c))
+            </code></pre><\i>`,
+        answer: "2 3 -3 3.3",
+        options: ["2 3 -3 3.3", "3 4 -3 3", "2 3 -3 3", "2 3 -3 -3.3"],
+    },
+    {
+        //q33
+        numb: 33,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            set1 = {1, 3, 5}
+            set2 = {2, 4, 6}
+            print(len(set1 + set2))
+            </code></pre><\i>`,
+        answer: "Error",
+        options: ["3", "6", "0", "Error"],
+    },
+    {
+        //q34
+        numb: 34,
+        question: "What keyword is used in Python to raise exceptions?",
+        answer: "raise",
+        options: ["raise", "try", "goto", "except"],
+    },
+    {
+        //q35
+        numb: 35,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            s1 = {1, 2, 3, 4, 5}
+            s2 = {2, 4, 6}
+            print(s1 ^ s2)
+            </code></pre><\i>`,
+        answer: "{1, 3, 5, 6}",
+        options: [
+            "{1, 2, 3, 4, 5}",
+            "{1, 3, 5, 6}",
+            "{2, 4}",
+            "None of the above",
+        ],
+    },
+    {
+        //q36
+        numb: 36,
+        question:
+            "Which of the following is not a valid set operation in python?",
+        answer: "None of the above",
+        options: ["Union", "Intersection", "Difference", "None of the above"],
+    },
+    {
+        //q37
+        numb: 37,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            a = [1, 2, 3, 4]
+            b = [3, 4, 5, 6]
+            c = [x for x in a if x not in b]
+            print(c)
+            </code></pre><\i>`,
+        answer: "[1,2]",
+        options: ["[1,2]", "[5,6]", "[1,2,5,6]", "[3,4]"],
+    },
+    {
+        //q38
+        numb: 38,
+        question:
+            "Which of the following are valid escape sequences in Python?",
+        answer: "All of the above",
+        options: ["\\n", "\\t", "\\\\", "All of the above"],
+    },
+    {
+        //q39
+        numb: 39,
+        question:
+            "Which of the following are valid string manipulation functions in Python?",
+        answer: "All of the above",
+        options: ["count()", "upper()", "strip()", "All of the above"],
+    },
+    {
+        //q40
+        numb: 40,
+        question:
+            "Which of the following modules need to be imported to handle date time computations in Python?",
+        answer: "datetime",
+        options: ["datetime", "date", "time", "timedate"],
+    },
+    {
+        //q41
+        numb: 41,
+        question: "How can assertions be disabled in Python?",
+        answer: "Passing -O when python is running",
+        options: [
+            "Passing -O when python is running",
+            "Assertions are diabled by default",
+            "Asertions cannot be diabled in python",
+            "None of the above",
+        ],
+    },
+    {
+        //q42
+        numb: 42,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            a = [[], "abc", [0], 1, 0]
+            print(list(filter(bool, a)))
+            </code></pre><\i>`,
+        answer: "['abc',[0],1]",
+        options: ["['abc',[0],1]", "[1]", '["abc"]', "None of the above"],
+    },
+    {
+        //q43
+        numb: 43,
+        question: "In which language is Python written?",
+        answer: "C",
+        options: ["C++", "C", "Java", "None of the above"],
+    },
+    {
+        //q44
+        numb: 44,
+        question:
+            "What will be the result of the following expression in Python “2 ** 3 + 5 ** 2”?",
+        answer: "33",
+        options: ["65536", "33", "169", "None of the above"],
+    },
+    {
+        //q45
+        numb: 45,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            count = 0
+            while(True):
+                if count % 3 == 0:
+                    print(count, end = " ")
+                if(count > 15):
+                    break;
+                count += 1
+            </code></pre><\i>`,
+        answer: "0 3 6 9 12 15",
+        options: [
+            "0 1 2 ... 15",
+            "Infinite loop",
+            "0 3 6 9 12 15",
+            "0 3 6 9 12",
+        ],
+    },
+    {
+        //q46
+        numb: 46,
+        question: "Which of the following concepts is not a part of Python?",
+        answer: "Pointers",
+        options: ["Pointers", "Loops", "Dynamic Typing", "All of the above"],
+    },
+    {
+        //q47
+        numb: 47,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            def solve(a, b):
+                return b if a == 0 else solve(b % a, a)
+            print(solve(20, 50))
+            </code></pre><\i>`,
+        answer: "10",
+        options: ["10", "20", "50", "1"],
+    },
+    {
+        //q48
+        numb: 47,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            def solve(a):
+                a = [1, 3, 5]
+            a = [2, 4, 6]
+            print(a)
+            solve(a)
+            print(a)
+            </code></pre><\i>`,
+        answer: "[2, 4, 6] [2, 4, 6]",
+        options: [
+            "[2, 4, 6] [2, 4, 6]",
+            "[2, 4, 6] [1, 3, 5]",
+            "[1, 3, 5] [1, 3, 5]",
+            "None of the above",
+        ],
     },
 ];

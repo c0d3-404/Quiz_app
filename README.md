@@ -1,3 +1,3 @@
-# Quiz_app
+# Phython Quiz
 
-A multiple choice quiz
+A multiple choice quiz about python
