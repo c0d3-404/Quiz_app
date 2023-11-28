@@ -178,4 +178,16 @@ let questions = [
             "five neither five neither",
         ],
     },
+    {
+        //q15
+        numb: 15,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">def check(a):
+            print("Even" if a % 2 == 0 else "Odd")
+        
+        check(12)`,
+        answer: "Even",
+        options: ["Even", "Odd", "Error"],
+    },
 ];
