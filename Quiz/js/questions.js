@@ -263,7 +263,9 @@ let questions = [
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             def is_even(number):
-                message =  f"{number} is an even number" if number % 2 == 0 else  f"{number} is an odd number"
+                message =  f"{number} is an even number" \
+                    if number % 2 == 0 \
+                        else  f"{number} is an odd number"
                 return message
             print(is_even(54))
             </code></pre><\i>`,
@@ -457,5 +459,13 @@ let questions = [
             "What datatype are the *kwargs stored, when passed into a function?",
         answer: "Dictionary",
         options: ["List", "Tuple", "Dictionary", "None of the above"],
+    },
+    {
+        //q31
+        numb: 31,
+        question:
+            "Which of the following blocks will always be executed whether an exception is encountered or not in a program?",
+        answer: "finally",
+        options: ["try", "except", "finally", "none of the above"],
     },
 ];
