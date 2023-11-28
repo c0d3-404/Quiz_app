@@ -37,8 +37,8 @@ let questions = [
         //q4
         numb: 4,
         question: "How is a code block indicated in Python?",
-        answer: "Indentaion",
-        options: ["Brackets", "Indentation", "Hey", "None of the above"],
+        answer: "Indentation",
+        options: ["Brackets", "Indentation", "Key", "None of the above"],
     },
     {
         //q5
@@ -84,7 +84,7 @@ let questions = [
             print(sum)
             </code></pre><\i>`,
         answer: "15",
-        options: ["`15`", "0", "20", "None of the above"],
+        options: ["15", "0", "20", "None of the above"],
     },
     {
         //q8

@@ -10,6 +10,7 @@
 body {
     background: #007bff;
     width: 100%;
+    color: #fff;
 }
 
 ::selection {
@@ -123,7 +124,7 @@ body {
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #141414;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
