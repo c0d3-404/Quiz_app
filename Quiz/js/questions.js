@@ -188,6 +188,6 @@ let questions = [
         
         check(12)`,
         answer: "Even",
-        options: ["Even", "Odd", "Error"],
+        options: ["Even", "Odd", "Error", "None of the above"],
     },
 ];
