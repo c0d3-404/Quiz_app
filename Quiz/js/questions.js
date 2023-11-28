@@ -3,7 +3,7 @@ let questions = [
     {
         //q1
         numb: 1,
-        question: "What is the maxismum length of a Python identifier",
+        question: "What is the maximum length of a Python identifier",
         answer: "No fixed length is specified",
         options: ["16", "32", "128", "No fixed length is specified"],
     },
@@ -102,7 +102,7 @@ let questions = [
             `<i><<pre><code class="python">a = [1, 2]
         print(a * 3)`,
         answer: "[1,2,1,2,1,2]",
-        options: ["Error", "[1,2", "[3,6]", "[1,2,1,2,1,2]"],
+        options: ["Error", "[1,2]", "[3,6]", "[1,2,1,2,1,2]"],
     },
     {
         //q10
@@ -183,9 +183,21 @@ let questions = [
         numb: 15,
         question:
             "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">numbers = (4, 7, 19, 2, 89, 45, 72, 22)
+        sorted_numbers = sorted(numbers)
+        even = lambda a: a % 2 == 0
+        even_numbers = filter(even, sorted_numbers)
+        print(type(even_numbers))`,
+        answer: "filter",
+        options: ["filter", "int", "list", "tuple"],
+    },
+    {
+        //q16
+        numb: 16,
+        question:
+            "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">def check(a):
             print("Even" if a % 2 == 0 else "Odd")
-        
         check(12)`,
         answer: "Even",
         options: ["Even", "Odd", "Error", "None of the above"],
