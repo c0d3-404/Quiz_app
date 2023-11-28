@@ -122,6 +122,7 @@ function showQuetions(index) {
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
+
 // creating the new div tags which for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
