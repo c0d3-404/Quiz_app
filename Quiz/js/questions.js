@@ -468,4 +468,5 @@ let questions = [
         answer: "finally",
         options: ["try", "except", "finally", "none of the above"],
     },
+    {},
 ];
