@@ -42,9 +42,9 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">a = [1, 2, 3]
-            a = tuple(a)
-            a[0] = 2
-            print(a)`,
+        a = tuple(a)
+        a[0] = 2
+        print(a)`,
         answer: "Error",
         options: ["[2,2,3]", "(2,2,3)", "(1,2,3)", "Error"],
     },
