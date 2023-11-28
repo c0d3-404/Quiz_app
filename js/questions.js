@@ -20,9 +20,9 @@ let questions = [
         question:
             "What will be the datatype of the var in the below code snippet?" +
             `<i><<pre><code class="python">var = 10
-    print(type(var))
-    var="Hello"
-    print(type(var))`,
+            print(type(var))
+            var="Hello"
+            print(type(var))`,
         answer: "int and str",
         options: ["str and int", "int and int", "str and str", "int and str"],
     },
@@ -37,9 +37,9 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class=a = [1, 2, 3]
-    a = tuple(a)
-    a[0] = 2
-    print(a)`,
+          a = tuple(a)
+          a[0] = 2
+          print(a)`,
         answer: "Error",
         options: ["[2,2,3]", "(2,2,3)", "(1,2,3)", "Error"],
     },
@@ -48,7 +48,7 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">print(type(5 / 2))
-    print(type(5 // 2))`,
+            print(type(5 // 2))`,
         answer: "float and int",
         options: [
             "float and int",
@@ -62,10 +62,10 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">a = [1, 2, 3, 4, 5]
-    sum = 0
-    for ele in a:
-       sum += ele 
-    print(sum)`,
+            sum = 0
+            for ele in a:
+              sum += ele 
+            print(sum)`,
         answer: "float and int",
         options: [
             "float and int",
@@ -79,10 +79,19 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">a = 3
-    b = 1 
-    print(a, b)
-    a, b = b, a 
-    print(a, b)`,
+            b = 1 
+            print(a, b)
+            a, b = b, a 
+            print(a, b)`,
+        answer: "3 1   1 3",
+        options: ["3 1   1 3", "1 3   3 1", "3 1   1 3", "1 3   3 1"],
+    },
+    {
+        numb: 8,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">a = [1, 2]
+            print(a * 3)`,
         answer: "3 1   1 3",
         options: ["3 1   1 3", "1 3   3 1", "3 1   1 3", "1 3   3 1"],
     },
