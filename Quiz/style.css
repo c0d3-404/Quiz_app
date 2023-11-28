@@ -50,7 +50,7 @@ body {
 }
 
 .info_box {
-    width: 5%;
+    width: 550px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -108,7 +108,7 @@ body {
 }
 
 .quiz_box {
-    width: 5%;
+    width: 540px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
