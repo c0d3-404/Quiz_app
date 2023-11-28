@@ -119,9 +119,9 @@ let questions = [
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
-        example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
-        del example[2]
-        print(example)`,
+example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
+del example[2]
+print(example)`,
         answer: "['Sunday','Monday', 'Wednesday']",
         options: [
             "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
