@@ -178,17 +178,4 @@ let questions = [
             "five neither five neither",
         ],
     },
-    {
-        //q15
-        numb: 15,
-        question:
-            "What will be the output of the following code snippet?" +
-            `<i><<pre><code class="python">numbers = (4, 7, 19, 2, 89, 45, 72, 22)
-        sorted_numbers = sorted(numbers)
-        even = lambda a: a % 2 == 0
-        even_numbers = filter(even, sorted_numbers)
-        print(type(even_numbers))`,
-        answer: "filter",
-        options: ["filter", "int", "list", "tuple"],
-    },
 ];
