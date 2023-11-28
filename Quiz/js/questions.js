@@ -76,13 +76,8 @@ let questions = [
             for ele in a:
                 sum += ele 
             print(sum)`,
-        answer: "float and int",
-        options: [
-            "float and int",
-            "int and float",
-            "float and float",
-            "int and int",
-        ],
+        answer: "15",
+        options: ["`15`", "0", "20", "None of the above"],
     },
     {
         //q8
