@@ -263,8 +263,8 @@ let questions = [
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
             def is_even(number):
-                message =  f"{number} is an even number" \ \n
-                    if number % 2 == 0 \ \n
+                message =  f"{number} is an even number" \
+                    if number % 2 == 0 \
                         else  f"{number} is an odd number"
                 return message
             print(is_even(54))
@@ -468,5 +468,4 @@ let questions = [
         answer: "finally",
         options: ["try", "except", "finally", "none of the above"],
     },
-    {},
 ];
