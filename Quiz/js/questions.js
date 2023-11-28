@@ -102,4 +102,61 @@ let questions = [
         answer: "do-while",
         options: ["for", "while", "do-while", "none of the above"],
     },
+    {
+        numb: 11,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">example = ["Sunday", "Monday", "Tuesday", "Wednesday"];
+            del example[2]
+            print(example)`,
+        answer: "['Sunday','Monday', 'Wednesday']",
+        options: [
+            "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
+            "['Sunday', 'Monday', 'Wednesday']",
+            "['Monday', 'Tuesday', 'Wednesday']",
+            "['Sunday', 'Monday', 'Tuesday']",
+        ],
+    },
+    {
+        numb: 12,
+        question:
+            "Which of the following is the proper syntax to check if a particular element is present in a list?",
+        answer: "All of the above",
+        options: [
+            "if ele in list",
+            "if not ele not in list",
+            "All of the above",
+            "None of the above",
+        ],
+    },
+    {
+        numb: 13,
+        question:
+            "What will be the type of the variable sorted_numbers in the below code snippet?" +
+            `<i><<pre><code class="python">numbers = (4, 7, 19, 2, 89, 45, 72, 22)
+            sorted_numbers = sorted(numbers)
+            print(sorted_numbers)`,
+        answer: "List",
+        options: ["List", "Tuple", "String", "Int"],
+    },
+    {
+        numb: 14,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">def thrive(n):
+                if n % 15 == 0:
+                    print("thrive", end = “ ”)
+                elif n % 3 != 0 and n % 5 != 0:
+                    print("neither", end = “ ”)
+                elif n % 3 == 0:
+                    print("three", end = “ ”)
+                elif n % 5 == 0:
+                    print("five", end = “ ”)
+        thrive(35)
+        thrive(56)
+        thrive(15)
+        thrive(39)`,
+        answer: "List",
+        options: ["List", "Tuple", "String", "Int"],
+    },
 ];
