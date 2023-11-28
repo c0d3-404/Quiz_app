@@ -52,7 +52,7 @@ body {
 
 .info_box {
     width: 85%;
-    background: #fff;
+    background: #383838;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -110,7 +110,7 @@ body {
 
 .quiz_box {
     width: 85%;
-    background: #fff;
+    background: #383838;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -138,7 +138,7 @@ body {
 
 section {
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #383838;
 }
 
 section .que_text {
@@ -154,7 +154,7 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: aliceblue;
+    background: rgb(145, 145, 145);
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
@@ -269,7 +269,7 @@ footer button.show {
 }
 
 .result_box {
-    background: #fff;
+    background: #383838;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
