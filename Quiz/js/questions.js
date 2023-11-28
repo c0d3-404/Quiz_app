@@ -650,7 +650,7 @@ let questions = [
     },
     {
         //q48
-        numb: 47,
+        numb: 48,
         question:
             "What will be the output of the following code snippet?" +
             `<i><<pre><code class="python">
@@ -668,5 +668,35 @@ let questions = [
             "[1, 3, 5] [1, 3, 5]",
             "None of the above",
         ],
+    },
+    {
+        //q49
+        numb: 49,
+        question:
+            "What will be the output of the following code snippet?" +
+            `<i><<pre><code class="python">
+            def func():
+                global value
+                value = "Local"
+   
+            value = "Global"
+            func()
+            print(value)
+            </code></pre><\i>`,
+        answer: "Local",
+        options: [
+            "Local",
+            "Global",
+            "Cannot be predicted",
+            "None of the above",
+        ],
+    },
+    {
+        //q50
+        numb: 50,
+        question:
+            "Which of the following statements are used in Exception Handling in Python?",
+        answer: "All of the above",
+        options: ["try", "except", "finally", "All of the above"],
     },
 ];
