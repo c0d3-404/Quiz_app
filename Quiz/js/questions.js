@@ -55,8 +55,9 @@ let questions = [
         numb: 6,
         question:
             "What will be the output of the following code snippet?" +
-            `<i><<pre><code class="python">print(type(5 / 2))
-        print(type(5 // 2))`,
+            `<i><<pre><code class="python">
+            print(type(5 / 2))
+            print(type(5 // 2))`,
         answer: "float and int",
         options: [
             "float and int",
