@@ -130,7 +130,7 @@ let questions = [
             del example[2]
             print(example)
             </code></pre><\i>`,
-        answer: "['Sunday','Monday', 'Wednesday']",
+        answer: "['Sunday', 'Monday', 'Wednesday']",
         options: [
             "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
             "['Sunday', 'Monday', 'Wednesday']",
